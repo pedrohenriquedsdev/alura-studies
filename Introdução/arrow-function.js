@@ -1,13 +1,12 @@
-const estudanteReprovou = (notaFinal, faltas) => {
-    if (notaFinal < 7 && faltas > 4) {
-        return true;
-    } else {
-        return false;
-    }
+// 🟡 2️⃣ Exercício intermediário
+
+// Crie uma arrow function chamada dobrarNumeros que receba um array de números e retorne um novo array com todos os valores dobrados.
+
+// Exemplo:
+
+const dobrarNumeros = (array) => {
+    const novoArray = array.map((number) => number * 2);
+    console.log(novoArray);
 }
 
-const exibeNome = (nome) => nome;
-
-console.log(estudanteReprovou(6, 5));
-console.log(estudanteReprovou(8, 2));
-console.log('Pedro');
+dobrarNumeros([2, 5, 6]);
