@@ -24,4 +24,4 @@ function obterIndiceProduto(nomeProduto) {
 }
 
 console.log(estaNoInventario('Mouse'));
-console.log(obterIndiceProduto('Mouse'));
+console.log('Mouse');
